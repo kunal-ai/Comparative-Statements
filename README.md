@@ -1,2 +1,2 @@
 # Comparative-Statements
-This is a Comparative Statement made using Bootstrap.
+This is a Comparative Statement used in a Procurement Process, made using Bootstrap.
