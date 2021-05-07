@@ -7,3 +7,17 @@
   border-color: #ced4da;
   border-radius: 0.25rem;
 }
+
+.text-responsive {
+  font-size: calc(100% + 1vw + 1vh);
+}
+
+@media (min-width: 1000px) {
+  html {
+    font-size: 14px;
+  }
+}
+
+.container-lg {
+  max-width: 100%;
+}
