@@ -1,0 +1,79 @@
+{
+  "documentType": "Comparative Statement",
+  "csNumber": "CS-057-2026-10-07",
+  "requisitionNumber": "057",
+  "requisitionDate": "2026-10-07",
+  "itemName": "Server Tray",
+  "quantity": 5,
+  "remarks": "Site Requirement Stage 2",
+  "vendors": [
+    {
+      "vendorNumber": 1,
+      "vendorName": "Array Ent. LLC",
+      "unitPrice": 550,
+      "tax": 18,
+      "transportation": 54,
+      "otherCharges": 125,
+      "totalAmount": 0,
+      "paymentTerms": "30 Days Credit",
+      "landedPrice": 747
+    },
+    {
+      "vendorNumber": 2,
+      "vendorName": "Hi Tech Fab LLP",
+      "unitPrice": 580,
+      "tax": 18,
+      "transportation": 90,
+      "otherCharges": 112,
+      "totalAmount": 0,
+      "paymentTerms": "15 Days Credit",
+      "landedPrice": 800
+    },
+    {
+      "vendorNumber": 3,
+      "vendorName": "Server Parts Inc.",
+      "unitPrice": 598,
+      "tax": 13,
+      "transportation": 98,
+      "otherCharges": 90,
+      "totalAmount": 0,
+      "paymentTerms": "Advance",
+      "landedPrice": 799
+    }
+  ],
+  "analysis": {
+    "lowestLandedPrice": 747,
+    "recommendedVendor": "Array Ent. LLC",
+    "vendorsSummary": [
+      {
+        "name": "Array Ent. LLC",
+        "landedPrice": 747,
+        "variancePct": 0,
+        "flagged": false
+      },
+      {
+        "name": "Hi Tech Fab LLP",
+        "landedPrice": 800,
+        "variancePct": 7.1,
+        "flagged": false
+      },
+      {
+        "name": "Server Parts Inc.",
+        "landedPrice": 799,
+        "variancePct": 7,
+        "flagged": false
+      }
+    ]
+  },
+  "approvals": {
+    "technicalApproval": true,
+    "financeApproval": true,
+    "managementApproval": true
+  },
+  "status": "Approved",
+  "meta": {
+    "createdAt": "2026-10-07 19:49:16",
+    "createdBy": "Kunal Verma",
+    "version": "1.0"
+  }
+}
